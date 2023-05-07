@@ -1,0 +1,6 @@
+reset;
+model Lab2.mod;
+data Lab2.dat;
+option solver cplex;
+solve;
+display y;
